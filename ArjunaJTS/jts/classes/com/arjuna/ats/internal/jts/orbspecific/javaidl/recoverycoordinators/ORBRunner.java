@@ -57,9 +57,6 @@ public class ORBRunner extends Thread
         {
             if (JavaIdlRCServiceInit._oa != null)
                 JavaIdlRCServiceInit._oa.destroy();
-
-            if (JavaIdlRCServiceInit._orb != null)
-                JavaIdlRCServiceInit._orb.shutdown();
         }
         catch (Exception ex)
         {
